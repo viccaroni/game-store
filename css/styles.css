@@ -1,0 +1,12 @@
+body {
+    font-family: "Josefin Sans", sans-serif;
+  }
+.row,
+.col{
+    /* border: 1px solid black; */
+}
+.row :nth-child(3){
+border: 1px solid slateblue;
+text-align: end;
+;
+}
