@@ -17,8 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/css/styles.css">
-
+    <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
     <script
@@ -29,14 +28,15 @@
 
     <header>
       <table>
-        <th class="login"><button>Login</button></th>
-        <th class="login"><button>Register</button></th>
+        <a class="login" href="login.html" onclick="open(login.html)">Login</a>
+        <a class="register" href="register.html" onclick="open(register.html)">Register</a>
       </table>
     </header>
-    <table id="second">
-      <th>Home</th>
-      <th>Products</th>
-      <th>Checkout</th>
+
+    <table>
+      <th id="home">Home</th>
+      <th id="products">Products</th>
+      <th id="checkout">Checkout</th>
     </table>
 
     <h1>Hello, World!</h1>
