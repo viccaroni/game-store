@@ -3,13 +3,18 @@ body {
   }
 
 .login{
-width: 100%;
-  padding-left: 2em;
+  width: 100%;
   text-align: right;
-  background-color: #333F63;
-}
-button{
-  background-color: #333F63;
-  border: none;
   color: white;
+  background-color: #333F63;
+  padding: 1em;
+  text-decoration: none;
+}
+.register{
+  width: 100%;
+  text-align: right;
+  color: white;
+  background-color: #333F63;
+  padding: 1em;
+  text-decoration: none;
 }
