@@ -1,20 +1,86 @@
-body {
-    font-family: "Josefin Sans", sans-serif;
-  }
+@import url("https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css");
 
-.login{
+html,
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #1b1b1b;
+  color: white;
   width: 100%;
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden;
+}
+#first {
+  background-color: #1b1b1b;
+  text-align: right;
+  padding-top: 1em;
+}
+#second {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1em;
+  background-color: #1b1b1b;
+}
+.checkout {
+  right: 2vw;
+  position: absolute;
+  text-decoration: none;
+  color: #808080;
+}
+
+.home,
+.products {
+  padding-left: -2em;
+  color: #808080;
+  text-decoration: none;
+  margin-right: 1em;
+}
+
+#highlight {
+  color: #8d3db2;
+}
+.login {
   text-align: right;
   color: white;
-  background-color: #333F63;
-  padding: 1em;
+  background-color: #1b1b1b;
   text-decoration: none;
 }
-.register{
-  width: 100%;
+.register {
+  padding-left: 2em;
+  padding-right: 2em;
   text-align: right;
   color: white;
-  background-color: #333F63;
-  padding: 1em;
+  background-color: #1b1b1b;
   text-decoration: none;
+}
+main {
+  padding: 1em;
+  text-align: center;
+}
+
+.container {
+  background-image: url("/images/my-project.jpg");
+  height: 50em;
+  width: 80em;
+  background-repeat: no-repeat;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  background-color: transparent;
+}
+
+hr {
+  color: black;
+  background-color: black;
+}
+h1 {
+  padding-top: 1em;
 }
